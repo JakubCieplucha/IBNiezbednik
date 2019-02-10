@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ibniezbednik">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+        android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <activity android:name=".ZmienHaslo"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".ZmienKursWybieralny"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Dane"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".Alarm"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Budzik"
+            android:screenOrientation="portrait" />
+        <service android:name=".Alarm$ServiceAlarm"
+            android:enabled="true"/>
+
+        <activity
+            android:name=".Mapa"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Indeks"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RankingKursow"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LicznikDeficytu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RankingLen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WykresyLen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Len"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WyborSemestru"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Rejestracja"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Logowanie"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

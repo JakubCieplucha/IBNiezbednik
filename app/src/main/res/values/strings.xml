@@ -1,0 +1,246 @@
+<resources>
+    <string name="app_name">Niezbednik</string>
+
+
+    // main
+    <string name="brak_internetu">Brak dostepu do internetu</string>
+
+    <string name="odswiez">Odswiez</string>
+
+    // logowanie
+
+    <string name="uzytkownik">Nazwa uzytkownika</string>
+
+    <string name="haslo">Haslo </string>
+
+    <string name="zaloguj">Zaloguj</string>
+
+    <string name="stworzKonto">Utworz nowe konto</string>
+
+    //rejestracja
+
+    <string name="haslo2">Powtorz haslo</string>
+
+    <string name="kod_zabezpieczajacy">Kod Zabezpieczajacy</string>
+
+
+    // wybierz semestr
+
+    <string name="semestr">Wybierz Semestr</string>
+
+    <string-array name="wyborSemestru">
+
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+
+
+    </string-array>
+
+
+    <string name="wybieralny">Dodaj do 3 kursow wybieralnych</string>
+
+
+    <string-array name="wybieralne">
+
+        <item>Jezyk obcy za 2 ECTS</item>
+        <item>Jezyk obcy za 3 ECTS</item>
+        <item>Zajecia Sportowe</item>
+        <item>Nauki humanistyczne za 3 ECTS</item>
+        <item>Nauki humanistyczne za 1 ECTS</item>
+        <item>Nauki spoleczne</item>
+
+    </string-array>
+
+
+    <string name="specjalizacja">Wybierz specjalizacje</string>
+
+    <string-array name="Specjalizacje">
+        <item>brak</item>
+        <item>Informatyka Medyczna</item>
+        <item>Biomechanika inzynierska</item>
+        <item>Optyka Biomedyczna</item>
+        <item>Elektronika Medyczna</item>
+    </string-array>
+
+    <string name="dodaj">Dodaj</string>
+
+    <string name="Dalej">Dalej</string>
+
+
+    // menu
+
+    <string name="buttonMapa">MAPA</string>
+    <string name="buttonTrKursow">RANKING KURSoW</string>
+    <string name="buttonLen">LEn</string>
+    <string name="buttonLicznikDef">LICZNIK DEFICYTU</string>
+    <string name="buttonBudzik">BUDZIK</string>
+    <string name="buttonOcenKurs">OCEn KURS</string>
+    <string name="buttonNotatki">NOTATKI</string>
+    <string name="buttonIndeks">INDEKS</string>
+    <string name="buttonPlan">PLAN ZAJec</string>
+    <string name="buttonWroc">POWROT</string>
+    <string name="buttonDaneProfilu">DANE PROFILU</string>
+    <string name="buttonLiczniki">LICZNIK NA KAzDa POTRZEBe</string>
+
+
+    //aktywnosc plan
+    <string name="pon">PONIEDZIAlEK</string>
+    <string name="wto">WTOREK</string>
+    <string name="sro">sRODA</string>
+    <string name="czw">CZWARTEK</string>
+    <string name="pia">PIaTEK</string>
+
+
+    <string name="q">7:30-9:00</string>
+    <string name="w">9:15-10:45</string>
+    <string name="e">11:15-12:45</string>
+    <string name="r">13:15-14:45</string>
+    <string name="t">15:15-16:45</string>
+    <string name="y">17:05-18:35</string>
+    <string name="u">18:55-20:25</string>
+
+
+    <string name="zapisz">Zapisz</string>
+    <string name="zeruj">Zeruj</string>
+
+
+    // len
+
+    <string name="hintCzasDojazdu">Ile czasu zajmuje Ci dojechanie na uczelnie (min)</string>
+    <string name="hintIloscDrzemek">Ilosc drzemek w ciagu tyg</string>
+    <string name="hintIloscSeriali">Ilosc obejrzanych odcinkow seriali w ciagu tyg</string>
+    <string name="hintIloscFilmow">Ilosc obejrzanych filmow w ciagu tyg</string>
+    <string name="hintIloscGier">Ilosc godzin spedzonego na grach wideo lub innych aktywnosciach w tyg</string>
+
+    <string name="boxYt">Youtube</string>
+    <string name="boxFb">Facebook</string>
+    <string name="boxSnap">Snapchat</string>
+    <string name="boxInsta">Instagram</string>
+
+    <string name="btnOblicz">Oblicz</string>
+    <string name="zeroValue">0</string>s
+
+    // len wykresy
+    <string name="ranking">Ranking</string>
+    <string name="wykre_bezwzg">Wykres 1 </string>
+    <string name="wykre_ncps">Wykres 2 </string>
+
+
+    // len ranking
+
+    <string name="powrot_do_menu">Menu</string>
+    <string name="ranking_leni">Ranking Leni</string>
+
+
+    // licznik deficytu
+
+    <string name="boxKurs1">Kurs 1</string>
+    <string name="boxKurs2">Kurs 2</string>
+    <string name="boxKurs3">Kurs 3</string>
+    <string name="boxKurs4">Kurs 4</string>
+    <string name="boxKurs5">Kurs 5</string>
+    <string name="boxKurs6">Kurs 6</string>
+    <string name="boxKurs7">Kurs 7</string>
+    <string name="boxKurs8">Kurs 8</string>
+    <string name="boxKurs9">Kurs 9</string>
+    <string name="boxKurs10">Kurs 10</string>
+    <string name="boxKurs11">Kurs 11</string>
+    <string name="boxKurs12">Kurs 12</string>
+    <string name="boxKurs13">Kurs 13</string>
+    <string name="boxKurs14">Kurs 14</string>
+    <string name="boxKurs15">Kurs 15</string>
+    <string name="boxKurs16">Kurs 16</string>
+    <string name="boxKurs17">Kurs 17</string>
+    <string name="boxKurs18">Kurs 17</string>
+
+    <string name="ktoreKursy">Jak myslisz, ktore kursy moga Cie poskromic?</string>
+
+    <string name="przeliczDef">Oblicz</string>
+
+    <string name="sprawdz">sprawdz</string>
+
+
+    // indeks
+
+    <string name="wyswietl">Wyswietl</string>
+    <string name="dodajOcene">Dodaj ocene</string>
+    <string name="hintTytul">Tytul oceny</string>
+    <string name="hintOcena">Ocena</string>
+
+
+    //ranking kursow
+
+
+    <string name="rankingKursow">Ranking Kursow</string>
+
+    <string name="wyswietl_ranking">Wyswietl</string>
+
+    <string name="dodaj_ocene_ranking">Dodaj Ocene</string>
+
+    <string name="hint_ocena_kursu">Ocena kursu</string>
+
+    <string name="skala">Skala : 0 - latwy   | 10 - od razu zbieraj na warunek </string>
+
+
+    <string name="btnPowrot">Powrot</string>
+
+
+    <string name="mapa_txt">\n\nNajblizsze przystanki : \n1.Most Grunwaldzki \n2.Plac Grunwaldzki \n3.Kliniki\n\n4.Polinka godziny otwarcia :\nPon-Pia : 7:00-21:00 \nSob-Niedz : 11:00-21:00   \n\nSKS (Strefa Kultury Studenckiej) :\nBudynek C-18
+
+
+        
+    </string>
+
+
+    // budzik
+
+    <string name="dodajBudzik">Dodaj alarm</string>
+
+    <string-array name="poziomyTrudnoosci">
+        <item>Praktycznie nie potrzebuje budzika</item>
+        <item>Przyda mi sie mala pomoc</item>
+        <item>Zazwyczaj ustawiam piec</item>
+        <item>I tak sie nie obudze</item>
+
+    </string-array>
+
+    <string name="wybierzPoziom">Wybierz poziom trudnosci</string>
+
+    <string name="buudzik">Budzik :</string>
+    <string name="usun">Usun</string>
+
+    <string name="wylacz_budzik">Wylacz Budzik</string>
+
+    <string name="budzik_sprawdz">Sprawdz</string>
+
+    <string name="wynikRowniania">Wynik</string>
+
+    //Dane
+
+    <string name="zmienKursWybieralny">Zamien kurs wybieralny</string>
+    <string name="usunOceneIndeks">Usun ocene z indeksu</string>
+    <string name="zmienOceneKursu">Zmien ocene kursu</string>
+    <string name="zmienHaslo">Zmien haslo</string>
+    <string name="usunKonto">Usun konto</string>
+    <string name="na">na</string>
+
+
+
+<string name="stareH">Stare haslo</string>
+    <string name="hintNoweHaslo">Nowe haslo</string>
+    <string name="hintNoweHaslo2">Powtorz haslo</string>
+
+
+
+
+    // usun konto
+
+    <string name="pewny">Usun</string>
+
+
+</resources>

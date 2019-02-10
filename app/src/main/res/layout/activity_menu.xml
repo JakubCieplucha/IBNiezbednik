@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tlo4"
+    tools:context=".Menu"
+
+    >
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="@+id/scrollView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/scrollView"
+            app:layout_constraintVertical_bias="0.0">
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_weight="0.1"></Space>
+
+
+            <Button
+                android:id="@+id/btnIndeks"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:onClick="indeksClicked"
+
+                android:text="@string/buttonIndeks"
+                android:textColor="@color/black"
+
+                android:textStyle="bold" />
+
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.1"></Space>
+
+
+            <Button
+                android:id="@+id/btnBudzik"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+
+                android:background="@color/white"
+                android:onClick="budzikClicked"
+                android:text="@string/buttonBudzik"
+                android:textColor="@color/black"
+
+                android:textStyle="bold" />
+
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.1"></Space>
+
+
+            <Button
+                android:id="@+id/btnRnaking"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:onClick="rankingClicked"
+                android:text="@string/buttonTrKursow"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.1"></Space>
+
+
+            <Button
+                android:id="@+id/btnLen"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:onClick="lenClicked"
+                android:text="@string/buttonLen"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.1"></Space>
+
+
+            <Button
+                android:id="@+id/btnLicznikDef"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:onClick="licznikClicked"
+                android:text="@string/buttonLicznikDef"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.1"></Space>
+
+
+            <Button
+                android:id="@+id/btnMapa"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:onClick="mapaClicked"
+                android:text="@string/buttonMapa"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.1"></Space>
+
+
+            <Button
+                android:id="@+id/btnDane"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:onClick="daneClicked"
+                android:text="@string/buttonDaneProfilu"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
